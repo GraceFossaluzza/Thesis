@@ -1,0 +1,7 @@
+torch
+torchinfo
+torchdiffeq
+matplotlib
+numpy
+sklearn
+pandas

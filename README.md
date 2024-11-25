@@ -1,9 +1,5 @@
 # Authors
-Marcus Lenler Garsdal, s174440@dtu.dk
-
-Valdemar Søgaard, s174431@dtu.dk
-
-Simon Moe Sørensen, s174420@dtu.dk
+Grace Fossaluzza, grace.fossaluzza@mail.polimi.it
 
 
 # Introduction
@@ -58,6 +54,3 @@ Create a new python environment and install the packages from `requirements.txt`
 ## Run python notebook
 Install Jupyter with `pip install jupyter` and run a server using `jupyter notebook` or any supported software
 such as Anaconda. 
-
-Then open `run_experiments.ipynb` and run the first cell. If the cell succeeds, you should see outputs in
-`experiment/output/png/**`

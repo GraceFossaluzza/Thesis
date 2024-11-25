@@ -30,12 +30,6 @@ Moreover, it saves and loads different types of models and handles model visuali
 - `visualize.py`: Visualizes model properties such as reconstructions, loss curves and original data samples
 
 
-## Experiments
-In addition, there are three folders for each type of dataset:
-- `real/`: Contains data for solar power curves and main script for training the solar power model
-- `spring/`: Generates spring examples and trains spring models
-- `toy/`: Generates spiral examples and trains spiral models
-
 Each `main.py` script takes a number of relevant parameters as input to enable parameter tuning,
 experimentation of different model types, dataset sizes and types. These can be read from the respective files.
 
@@ -44,7 +38,7 @@ To run the code use the following code in a terminal with the project root as wo
 `python -m src.[dataset].main [--args]`
 
 For example:
-`python3 -m src.toy.main --epochs 1000 --freq 100 --num-data 500 --n-total 300 --n-sample 200 --n-skip 1 --latent-dim 4 --hidden-dim 30 --lstm-hidden-dim 45 --lstm-layers 2 --lr 0.001 --solver rk4`
+`python3 -m src.toy.main --epochs 1000 --freq 100 --latent-dim 4 --hidden-dim 30 --lstm-hidden-dim 45 --lstm-layers 2 --lr 0.001 --solver rk4`
 
 ## Setup environment
 Create a new python environment and install the packages from `requirements.txt` using
@@ -53,4 +47,4 @@ Create a new python environment and install the packages from `requirements.txt`
 
 ## Run python notebook
 Install Jupyter with `pip install jupyter` and run a server using `jupyter notebook` or any supported software
-such as Anaconda. 
+such as Anaconda.

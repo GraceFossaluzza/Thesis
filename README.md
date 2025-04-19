@@ -13,7 +13,7 @@ To make development and research more seamless, an object-oriented approach was 
 consistency across multiple runs. This also makes it easier to extend and change workflows across multiple models at once.
 
 ## Source files
-The src folder contains the source code. The main components of the source code are:
+The folder contains the source code. The main components of the source code are:
 
 - `data.py`: Data loading object. 
 - `model.py`: Contains model implementations and the abstract `TrainerModel` class which defines models

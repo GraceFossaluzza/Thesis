@@ -23,10 +23,6 @@ Moreover, it saves and loads different types of models and handles model visuali
 - `utils.py`: Standard utility functions
 - `visualize.py`: Visualizes model properties such as reconstructions, loss curves and original data samples
 
-
-Each `main.py` script takes a number of relevant parameters as input to enable parameter tuning,
-experimentation of different model types, dataset sizes and types. These can be read from the respective files.
-
 ## Setup environment
 Create a new python environment and install the packages from `requirements.txt` using
 

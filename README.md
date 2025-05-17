@@ -6,7 +6,7 @@ Grace Fossaluzza, grace.fossaluzza@mail.polimi.it
 This repo contains the code used for my Thesis work.
 Using pytorch and Neural ODEs (NODEs) it attempts to learn the true dynamics of time series data (EEG signals).
 
-The performance of the NODEs are validated with RMSE error and Pearson correalationn.  
+The performance of the NODEs are validated with RMSE error and Pearson correlation.  
 
 # Code structure
 To make development and research more seamless, an object-oriented approach was taken to improve efficiency and
